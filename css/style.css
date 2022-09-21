@@ -48,6 +48,7 @@ p{
 }
 
 @media screen and (min-width: 1024px){
+    
     body{
         font-size: 1.8rem
     }
@@ -89,6 +90,7 @@ a{
 }
 
 @media screen and (min-width: 1024px){
+    
     .link-arrow{
         font-size: 1.5rem;
     }
@@ -120,6 +122,7 @@ a{
 }
 
 @media screen and (min-width: 1024px){
+    
     .badge{
         font-size: 1.5rem;
     }
@@ -153,6 +156,7 @@ a{
 }
 
 @media screen and (min-width: 1024px){
+    
     .list--tick .list__item{
         padding-left: 0;
     }
@@ -246,12 +250,18 @@ a{
     border: 2px solid var(--color-heading);
 }
 
+.btn--stretched{
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
 .btn--outline:hover{
     background-color: var(--color-heading);
     color: #fff;
 }
 
 @media screen and (min-width: 1024px){
+    
     .btn{
         font-size: 1.5rem;
     }
@@ -289,6 +299,7 @@ a{
 }
 
 @media screen and (min-width: 1024px){
+    
     .input{
         font-size: 1.5rem;
     }
@@ -364,6 +375,7 @@ a{
 }
 
 @media screen and (min-width: 1024px) {
+    
     .plan__name{
         font-size: 1.4rem;
     }
@@ -437,6 +449,7 @@ a{
 }
 
 @media screen and (min-width: 1024px){
+    
     .quote{
         font-size: 2rem;
     }
@@ -458,6 +471,7 @@ a{
 
 
 @media screen and (min-width: 768px){
+    
     .grid--1X2{
         grid-template-columns: 1fr 1fr;
     }
@@ -505,14 +519,47 @@ a{
     }
 }
 
+/* Callout */
+.callout{
+    padding: 4rem;
+    border-radius: 5px;
+}
 
+.callout--primary{
+    background-color: var(--color-primary);
+    color: #fff;
+}
 
+.callout__heading{
+    color: #fff;
+    margin-top: 0;
+    font-size: 3rem;
+}
 
+.callout .btn{
+    justify-self: center;
+    align-self: center;
+}
 
+.callout__content{
+    text-align: center;
+}
 
+@media screen and (min-width: 768px){
+    
+    .callout .grid--1X2{
+       grid-template-columns: 1fr auto; 
+    }
 
+    .callout__content{
+        text-align: left;
+    }
 
-
+    .callout .btn{
+        justify-self: start;
+        margin: 0 2rem;
+    }
+}
 
 
 
