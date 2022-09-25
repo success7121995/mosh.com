@@ -235,6 +235,10 @@ a{
     content: url(../images/chevron.svg);
 }
 
+.icon__menu{
+    content: url(../images/menu.svg);
+}
+
 /* Buttons */
 
 .btn {
@@ -245,7 +249,7 @@ a{
     font-weight: 600;
     margin: 1rem 0;
     outline: none;
-    padding: 2rem 3rem;
+    padding: 2rem 4vw;
     text-align: center;
     text-transform: uppercase;
     white-space: nowrap;
@@ -344,6 +348,7 @@ a{
     border: none;
     flex-grow: 1;
     padding: 1.5rem 2rem;
+    width: 0;
 }
 
 .input-group .btn{
@@ -798,8 +803,9 @@ a{
 }
 
 .block-domain__prices{
+    color: var(--color-heading);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 6rem 6rem;
     font-size: 2rem;
     font-weight: 600;
