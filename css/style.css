@@ -197,6 +197,19 @@ a{
     background-color: var(--color-accent);
 }
 
+.icon__easy{
+    content: url(../images/easy.svg);
+}
+
+.icon__computer{
+    content: url(../images/computer.svg);
+}
+
+.icon__wordpress{
+    content: url(../images/wordpress.svg);
+}
+
+
 /* Buttons */
 
 .btn {
@@ -795,4 +808,29 @@ a{
         transform: scale(1);
     }
     
+}
+
+/* Feature Block */
+
+.feature{
+    gap: 4rem 2rem;
+    margin: 12rem 0;
+}
+
+.feature:first-of-type {
+    margin-top: 6rem;
+}
+
+.feature__heading{
+    margin: 1rem 0;
+}
+
+.feature__image{
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .feature:nth-of-type(even) .feature__content{
+        order: 2;
+    }
 }
