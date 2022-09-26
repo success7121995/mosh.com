@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/success7121995/mosh.com#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.3"
   }
 }
